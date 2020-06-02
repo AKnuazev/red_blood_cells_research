@@ -1,2 +1,1 @@
-# red_blood_cells_research
-Application for conducting red blood cells research
+![title_cell_image](images/title_red_blood_cell_image.png)
