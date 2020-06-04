@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt    # Импортируем библеотеку для работы с графиками
-import numpy as np                 # Импортируем библеотеку для работы с масиивами
+import numpy as np                 # Импортируем библеотеку для работы с массивами
 
 from source.formulas import pow_2  # Импортируем необходимые нам формулы из файла formulas
 
