@@ -1,11 +1,12 @@
-import matplotlib.pyplot as plt
-import numpy as np
+import matplotlib.pyplot as plt    # Импортируем библеотеку для работы с графиками
+import numpy as np                 # Импортируем библеотеку для работы с масиивами
 
-from source.formulas import pow_2
+from source.formulas import pow_2  # Импортируем необходимые нам формулы из файла formulas
 
-print("Enter x:")
-variable_name = input()
-print(variable_name)
+# Получаем данные от пользователя
+print("Enter x:")     # Выводим в консоль просьбу ввести данные
+our_input = input()   # Считываем введенные до нажатия ENTER данные в перемнную
+print(our_input)      # Выводим то, что мы считали в консоль (для проверки, потом эту строку можно удалить)
 
 # Задаем зависимоти
 x = np.linspace(0, 0.1, 50)  # Массив из (p3) значений на отрезке (p1;p2)
