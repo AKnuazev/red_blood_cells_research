@@ -23,7 +23,7 @@ def pow_2(x):
 # Нормальное распределение
 def norm_dist(sygma_r, j):
     M = 100  # По условию M=100
-    r = 2 * sqrt(3) * sygma_r / M
+    r = 6 * sygma_r / M
     return (1 / (sygma_r * sqrt(2 * pi))) * exp(-1 * ((r * j) ** 2) / (2 * sygma_r ** 2))
 
 
